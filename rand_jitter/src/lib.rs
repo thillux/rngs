@@ -1,4 +1,4 @@
-// Copyright 2018 Developers of the Rand project.
+// Copyright 2018-2024 Developers of the Rand project.
 //
 // Licensed under the Apache License, Version 2.0 <LICENSE-APACHE or
 // https://www.apache.org/licenses/LICENSE-2.0> or the MIT license
@@ -6,8 +6,8 @@
 // option. This file may not be copied, modified, or distributed
 // except according to those terms.
 //
-// Based on jitterentropy-library, http://www.chronox.de/jent.html.
-// Copyright Stephan Mueller <smueller@chronox.de>, 2014 - 2017.
+// Based on jitterentropy-library, http://www.chronox.de/jent.
+// Copyright Stephan Mueller <smueller@chronox.de>, 2014 - 2024.
 //
 // With permission from Stephan Mueller to relicense the Rust translation under
 // the MIT license.
@@ -31,7 +31,7 @@
 //! you must provide a high-precision timer and carefully have to follow the
 //! instructions of [`JitterRng::new_with_timer`].
 //!
-//! This implementation is based on [Jitterentropy] version 2.1.0.
+//! This implementation is based on [Jitterentropy] version 3.4.1.
 //!
 //! Note: There is no accurate timer available on WASM platforms, to help
 //! prevent fingerprinting or timing side-channel attacks. Therefore
